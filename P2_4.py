@@ -20,5 +20,5 @@ else:
     audioclip = mp.AudioFileClip("output.mp3")  # Read the audio
     new_audioclip = mp.CompositeAudioClip([audioclip])
     my_clip.audio = new_audioclip  # Change the audio of the video
-    my_clip.write_videofile("audio_mp3.mp4")  # Save the new video
+    my_clip.write_videofile("mp3_video.mp4")  # Save the new video
 
